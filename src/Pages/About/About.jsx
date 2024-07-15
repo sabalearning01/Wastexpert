@@ -10,6 +10,8 @@ import recyclebin1 from '../../Images/recyclebin1.png'
 import recyclebin2 from '../../Images/recyclebin2.png'
 import bottle from '../../Images/bottle.png'
 import bin from '../../Images/bin.png'
+import AboutG from '../../Images/AboutG.png'
+import our from '../../Images/our.png'
 
 
  const About = () => {
@@ -17,7 +19,7 @@ import bin from '../../Images/bin.png'
     <div className='main'>
       <Navbar/>
       
-      <img className='lemon' src = {lemonbg} alt="lemonbg"/>
+
       
     <div className='mother'>
     
@@ -27,7 +29,7 @@ import bin from '../../Images/bin.png'
       <p>Wastexpert is a waste recycling and social <br/> benefit venture borne out of sheer passion and<br/> vision to transform our environment into a zero <br/> landfill  and zero waste nation. We operates an <br/>incentive-based scheme which collects recyclable <br/> materials from enerprie and households by giving<br/> them a chance to generate value from their <br/> waste and provide a reliable supply of raw <br/> material to the local recycling industry. And in <br/> turn rewards them with “Points” which they can<br/> accumulate overtime and cash out or use to <br/> redeem/shop for household items offered through <br/> our Wastexpert- store.</p>
     </div>
     <div className='right'>
-       <img src = {wastexpectimg} alt="wastexpertimage"/>  
+        <img src = {AboutG} alt="heroimage"/>   
       </div>
 
       
@@ -57,7 +59,7 @@ import bin from '../../Images/bin.png'
       </div>
 
       <div className='rightimg1'>
-      <img src = {lemonbg2} alt="lemonbg2"/>
+      <img src = {our} alt="bin"/>
       </div>
     </div>
 
@@ -69,9 +71,10 @@ import bin from '../../Images/bin.png'
     </div>
        <h5 className='jeffery'>Jeffery Sanderson</h5>
 
-
+       
           
        </div>
+      
   )
 }
 

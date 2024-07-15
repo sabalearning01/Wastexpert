@@ -12,7 +12,7 @@
 
 .item{
      background: #9A999914;
-    opacity: 8%;
+    /* opacity: 8%; */
     box-shadow: 0px 4px 4px 0px #00000040;
     margin-bottom: 5px;
     padding: 10px 20px ;
@@ -31,3 +31,21 @@
     opacity: 60%;
 
 }
+
+
+.accordion__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .accordion__button::after {
+    content: '>';
+    display: inline-block;
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .accordion__button[aria-expanded='true']::after {
+    transform: rotate(-90deg);
+  }

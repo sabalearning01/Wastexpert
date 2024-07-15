@@ -4,12 +4,13 @@ import Navbar from '../../Components/Navbar/Navbar'
 import Navbar2 from '../../Components/Navbar2/Navbar2'
 import GCR from '../../Images/GCR.png'
 import AGENTIMAGE from '../../Images/AGENTIMAGE.png'
+import guyimage from '../../Images/guyimage.png'
 
  const Agent = () => {
   return (
     <div className='mo'>
       <Navbar2/>
-       <img  className ="bgimg" src={GCR} alt="backgroundgimage"/> 
+       {/* <img  className ="bgimg" src={GCR} alt="backgroundgimage"/>  */}
         <div className='maincontainer'>
             <div className='lft'>
              <h2>Love to Chill with the ‘BIG’ boys?</h2>
@@ -17,9 +18,11 @@ import AGENTIMAGE from '../../Images/AGENTIMAGE.png'
              <button className='agt'><a href="#">Become an agent</a></button>
             </div> 
             <div className='rth'>
-                <img src={AGENTIMAGE} alt=""/> 
+                <img src={guyimage} alt="guyimage"/>  
             </div>
         </div>
+
+        <div className=''>Here is why You should roll with us</div>
 
 
 

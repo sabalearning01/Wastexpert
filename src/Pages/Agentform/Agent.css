@@ -1,30 +1,16 @@
 
-.bgimg{
-    position: absolute;
-    right:20px;
-    border-radius: 50%;
-    /* width: 29.125rem; */
-    /* height: 607px; */
-    opacity:15%;
-    object-fit: contain;
 
-}
 
 .maincontainer{
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 70px;
+    
     
 }
 
 
-/* 
-.maincontainer{
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-right: 25.42px;
-} */
 
  
 .lft h2{
@@ -34,7 +20,8 @@
    line-height: 74.58px;
    text-align: left;
    color:#028C32;
-   width: 477px;
+    width: 450px; 
+   /* width:577px; */
 
 
 }
@@ -68,9 +55,4 @@
 }
 
 
- .rth img{
-    /* width: 945px; */
-gap: 0px;
-opacity: 0px;
-margin-right: 165px;
-}
+ 

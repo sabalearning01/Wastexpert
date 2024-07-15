@@ -7,6 +7,7 @@ import AGENTIMAGE from '../../Images/AGENTIMAGE.png'
 import guyimage from '../../Images/guyimage.png'
 import profit from '../../Images/profit.png'
 import truck from '../../Images/truck.png'
+import settings from '../../Images/settings.png'
 
  const Agent = () => {
   return (
@@ -26,17 +27,30 @@ import truck from '../../Images/truck.png'
 
         <div className='para'>Here is why You should roll with us</div>
 
-         <div className='parents'>
-          <div className=''><img src = {profit} alt="profiticon"/>
-          <p>Get commission on every kilogram collected from your outlet</p>
+          <div className='parents'>
+          
+          <div className='child1'><img src = {profit} alt="profiticon"/>
+          {/* <p>Get commission on every kilogram <br/>collected from your outlet</p> */}
           </div>
-          <div className=''><img src = {truck} alt="truckicon"/>
-          <p>Get disposal traffic directed to your outlet by our collectors and individuals looking to drop-off</p>
+
+          <div className='child2'><img src = {truck} alt="truckicon"/>
+          {/* <p>Get disposal traffic directed to your outlet <br/> by our collectors and individuals looking to drop-off</p> */}
           </div>
-          <div className=''><img src = {settings} alt="settingsicon"/>
-          <p>Get all the tools you need to run your business with zero setup cost</p>
+
+          <div className='child3'><img src = {settings} alt="settingsicon"/>
+          {/* <p>Get all the tools you need to run your <br/> business with zero setup cost</p> */}
           </div>
-         </div>
+         
+
+
+         </div> 
+         <div className='flextool'>
+          <p>Get commission on every kilogram <br/>collected from your outlet</p>
+          <p>Get disposal traffic directed to your outlet <br/> by our collectors and individuals looking to drop-off</p>
+          <p>Get all the tools you need to run your <br/> business with zero setup cost</p> 
+          </div>
+
+          <div className='thic'></div> 
 
 
 

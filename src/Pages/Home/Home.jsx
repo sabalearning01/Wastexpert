@@ -46,7 +46,7 @@ import Navbar2 from '../../Components/Navbar2/Navbar2'
           <p>The Waste to Wealth Mission brings scientific processing<br/> of waste to the forefront to build a zero landfill and <br/> zero waste nation.</p>
           <div className='btnflex'>
          <button className='pri-cta'><a href="#">Get Started</a></button>
-          <button className='sec-cta'><img  className="playic" src= {play} alt="Playicon" />Press Play</button> 
+          <button className='sec-cta'><img  className="playic" src= {play} alt="Playicon" /><a>Press Play</a></button> 
          </div>
           </div>
 

@@ -3,8 +3,10 @@
     right:25px;
     border-radius: 50%;
     /* top:20px; */
-    width: 29.125rem;
-    height: 607px;
+    width: 29.125rem; 
+     height: 607px; 
+    /* max-width: 100%; */
+    /* height:auto; */
     opacity:15%;
     object-fit: contain;
 
@@ -50,11 +52,13 @@
 
 .guyimage{
     /* width:600px; */
-    width:100%; 
+    /* width:100%;  */
     /* width: 526px; */
     /* height: 580px; */
     object-fit: contain;
     margin-top: 60px;
+    /* height:auto; */
+    max-width: 100%;
     height:auto;
 
 }
@@ -90,6 +94,9 @@
 }
 
 .sec-cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:200px;
     border:none;
     padding: 15px 25px;
@@ -104,7 +111,7 @@
     font-weight: 400;
     line-height: 21.78px;
     text-align: left;
-    padding-bottom: 20px;
+    padding-top: 4px;
 
 }
 
@@ -115,8 +122,8 @@
 } */
 
 .playic{
-    width:2rem;
-    height:32.02px;
+    /* width:2rem; */
+    /* height:32.02px; */
     margin-right: 10px;
 }
 
@@ -167,6 +174,12 @@
     gap:20px;
 }
 
+.companylogo img{
+    max-width: 100%;
+    height:auto;
+    object-fit: contain;
+}
+
 .About{
     display:flex;
     justify-content: space-evenly;
@@ -175,6 +188,8 @@
 }
 
 .factoryimage{
+    max-width: 100%;
+    height:auto;
     object-fit: contain;
     box-shadow: 0px 6px 12px 0px #00000029;
 
@@ -546,6 +561,12 @@ height:auto;
 
 }
 
+
+.guyimage img{
+    /* max-width: 100%; */
+    height:auto;
+    object-fit: contain;
+}
 .Treasure{
     width:100%;
     /* height: 900px; */

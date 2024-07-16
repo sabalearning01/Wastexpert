@@ -20,7 +20,7 @@ function App() {
         {/* <main> */}
            {/* <Footer />    */}
             {/* <Accordion/>  */}
-           {/* <Navbar2/> */}
+            {/* <Navbar2/>  */}
           
             <Routes>
             <Route index element={<Home/>}/>

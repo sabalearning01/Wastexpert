@@ -1,0 +1,35 @@
+.foster{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 65px;
+    margin-top: 62px;
+}
+
+.lside h2{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: justified;
+    color: #028C32;
+
+
+}
+
+ .lside img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+} 
+
+.lside p {
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: justified;
+    color:#666666;
+margin-top: 50px; 
+width:439px;
+}

@@ -128,9 +128,12 @@
 }
 
 .greenrec{
+    position: absolute;
+    top: 600px;
     width: 100%;
     height: 39px;
     background-color: #028C32;
+   
     
 }
 
@@ -569,7 +572,7 @@ height:auto;
 }
 .Treasure{
     width:100%;
-    /* height: 900px; */
+     height: 900px; 
     background: #028C32;
     margin-top: 108px;
 }
@@ -601,10 +604,9 @@ height:auto;
     padding-left: 99px;
     padding-right: 99px;
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
-    /* gap: 13px; */
+    gap: 13px; 
     padding-top: 71px;
     
   
@@ -612,24 +614,25 @@ height:auto;
 }
 
 .container{
-    /* width: 300px; */
-    width: 23%;
-/* width: 300px; */
-/* height: 560px; */
-border-radius: 8px 0px 0px 0px;
-border: 1.5px 0px 0px 0px;
-opacity: 0px;
-background: #08BD46B2;
-border: 1.5px solid #FFFFFF70;
-
-/* padding-left: 99px; */
-/* padding-right: 99px; */
+     width: 300px;
+    /* width: 23%; */
+     height: 560px; 
+     border-radius: 8px 0px 0px 0px;
+     border: 1.5px 0px 0px 0px;
+     opacity: 0px;
+     background: #08BD46B2;
+    border: 1.5px solid #FFFFFF70;
 }
 
 .container img{
     padding-top: 163px;
     display: block;
     margin: auto;
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
     /* padding-left: 15px;
     padding-right: 15px; */
 }
@@ -650,7 +653,7 @@ border: 1.5px solid #FFFFFF70;
     border:none;
     border-radius: 6px;
     margin-left:45%;
-    margin-top: 62px;
+    margin-top: 57px;
 }
 
 

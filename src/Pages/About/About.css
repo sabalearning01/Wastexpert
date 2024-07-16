@@ -58,6 +58,8 @@
     width:100%;
     height: 56px;
     background: #028C32;
+    position: absolute;
+    top:700px;
 
 }
 

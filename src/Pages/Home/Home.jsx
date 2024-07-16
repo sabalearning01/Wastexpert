@@ -30,6 +30,7 @@ import Navbar2 from '../../Components/Navbar2/Navbar2'
 
 
 
+
  const Home = () => {
   return (
     

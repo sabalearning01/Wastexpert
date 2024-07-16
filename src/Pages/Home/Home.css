@@ -20,6 +20,7 @@
 
  .left-col{
     margin-top: 30px;
+    /* padding-bottom: 200px; */
 } 
 
 .left-col h3{
@@ -522,8 +523,8 @@
     justify-content: center;
     align-items: center;
     gap:10px;
-      margin-left: 140px;  
-      margin-right: 144px;  
+    margin-left: 140px;  
+    margin-right: 144px;  
 }
 
 .contextbox{
@@ -540,14 +541,14 @@
     padding-top: 14px;
     padding-left: 45px;
     font-family: Mulish;
-font-size: 1.625rem;
-font-weight: 700;
- line-height: 36.4px;
-letter-spacing: -0.01em;
-text-align: justified;
-color:#028C32;
-width:756px;
-height:auto;
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 36.4px;
+    letter-spacing: -0.01em;
+    text-align: justified;
+    color:#028C32;
+    width:756px;
+    height:auto;
 
 }
 
@@ -633,8 +634,8 @@ height:auto;
     height: auto;
     justify-content: center;
     align-items: center;
-    /* padding-left: 15px;
-    padding-right: 15px; */
+    padding-left: 15px;
+    padding-right: 15px; 
 }
 
 .container h5{

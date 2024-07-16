@@ -24,11 +24,11 @@ function App() {
           
             <Routes>
             <Route index element={<Home/>}/>
-            <Route path= "about" element={<About/>}/>
-            <Route path= "agentform" element={<Agent/>}/> 
-            <Route path= "tresureslistpage" element={<Treasure/>}/> 
-            <Route path= "services" element={<Services/>}/> 
-            <Route path= "flippage" element={<Flippage/>}/> 
+            <Route path="about" element={<About/>}/>
+            <Route path="agentform" element={<Agent/>}/> 
+            <Route path="treasure" element={<Treasure/>}/> 
+            <Route path="services" element={<Services/>}/> 
+            <Route path="flippage" element={<Flippage/>}/> 
             
           </Routes>  
         {/* </main> */}

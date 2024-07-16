@@ -81,6 +81,7 @@
     line-height: 24.21px;
     text-align: center;
     color:white;
+     /* padding-top: 37px;  */
 
 }
 
@@ -95,5 +96,6 @@
     object-fit: contain;
     padding-left: 8px;
     padding-right: 8px;
+    /* padding-bottom:90px ; */
 
 }

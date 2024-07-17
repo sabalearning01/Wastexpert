@@ -8,6 +8,7 @@ import Services from './Pages/Services/Services'
 import Flippage from './Pages/Flippage/Flippage'
 import Footer from './Components/Footer/Footer'
 import Accordion from './Components/Accordion/Accordion'
+import Seemorebtn from './Components/Seemorebtn/Seemorebtn'
 
 
 
@@ -21,8 +22,9 @@ function App() {
            {/* <Footer />    */}
              {/* <Accordion/> */}
             {/* <Navbar2/>  */}
+            <Seemorebtn/>
           
-            <Routes>
+            {/* <Routes>
             <Route index element={<Home/>}/>
             <Route path="about" element={<About/>}/>
             <Route path="agentform" element={<Agent/>}/> 
@@ -30,7 +32,7 @@ function App() {
             <Route path="services" element={<Services/>}/> 
             <Route path="flippage" element={<Flippage/>}/> 
             
-          </Routes>  
+          </Routes>   */}
         {/* </main> */}
         </BrowserRouter>
   )

@@ -25,7 +25,7 @@ const Seemorebtn = () => {
           alias placeat nisi aperiam amet ducimus corporis perspiciatis.<br/>
         </p>
 
-        <button onClick={()=>{
+         <button onClick={()=>{
             setisOpen(!isOpen) }}>{isOpen ?'See Less' : 'See More...'}</button>
         </div>
   )

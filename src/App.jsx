@@ -14,7 +14,17 @@ import Seemorebtn from './Components/Seemorebtn/Seemorebtn'
 
 
 function App() {
-
+<Expandable>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo architecto fugit omnis error consequuntur ab, obcaecati assumenda voluptas
+        debitis nostrum praesentium expedita delectus non esse minima dolores. Quisquam, consequatur quos!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo architecto fugit omnis error consequuntur ab, obcaecati assumenda voluptas
+        debitis nostrum praesentium expedita delectus non esse minima dolores. Quisquam, consequatur quos!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo architecto fugit omnis error consequuntur ab, obcaecati assumenda voluptas
+        debitis nostrum praesentium expedita delectus non esse minima dolores. Quisquam, consequatur quos!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo architecto fugit omnis error consequuntur ab, obcaecati assumenda voluptas
+        debitis nostrum praesentium expedita delectus non esse minima dolores. Quisquam, consequatur quos!
+       
+       </Expandable>
 
   return (
         <BrowserRouter>
@@ -22,7 +32,7 @@ function App() {
            {/* <Footer />    */}
              {/* <Accordion/> */}
             {/* <Navbar2/>  */}
-            <Seemorebtn/>
+             <Seemorebtn/> 
           
             {/* <Routes>
             <Route index element={<Home/>}/>

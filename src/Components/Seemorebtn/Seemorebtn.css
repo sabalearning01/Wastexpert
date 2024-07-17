@@ -11,4 +11,10 @@ button{
     font-weight: 600;
     line-height: 19.8px;
     text-align: center;
+    margin-left: 45%;
     } 
+
+  p{
+    text-align: center;
+    font-family: Mulish;
+  }  

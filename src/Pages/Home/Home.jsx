@@ -187,8 +187,15 @@ import Navbar2 from '../../Components/Navbar2/Navbar2'
 
     <div className='frequent'>
        <h2>Frequently asked questions</h2> 
-    </div>
+       <Accordion/>
+       <h2>Still have a questions?</h2>
+       <p>If you cannot find answer to your question in our FAQ,<br/> 
+you can always Contact us. <br/>
+we will get back to you shortly!</p>
 
+<button className='btncontact'><a>Contact Us</a></button>
+    </div>
+    <Footer/>
     </div>
   )
 }

@@ -19,7 +19,7 @@ function App() {
         <BrowserRouter>
         {/* <main> */}
            {/* <Footer />    */}
-            {/* <Accordion/>  */}
+             {/* <Accordion/> */}
             {/* <Navbar2/>  */}
           
             <Routes>

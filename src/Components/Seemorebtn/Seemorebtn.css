@@ -1,4 +1,4 @@
-button{
+ .act{
     padding: 10px 30px;
     background-color: #FFFFFF;
     border: none;
@@ -12,9 +12,9 @@ button{
     line-height: 19.8px;
     text-align: center;
     margin-left: 45%;
-    } 
+    }  
 
-  p{
+  .pa{
     text-align: center;
     font-family: Mulish;
-  }  
+  }   

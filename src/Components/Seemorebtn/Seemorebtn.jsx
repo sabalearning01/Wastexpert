@@ -17,7 +17,7 @@ const Seemorebtn = () => {
     const [isOpen, setisOpen] = useState(false)
   return (
     <div>
-        <p style={isOpen ? null : paragraphStyles}
+        <p class="pa" style={isOpen ? null : paragraphStyles}
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/>
           Aperiam minus enim quidem atque impedit. Ratione odio maiores<br/> 
@@ -25,7 +25,7 @@ const Seemorebtn = () => {
           alias placeat nisi aperiam amet ducimus corporis perspiciatis.<br/>
         </p>
 
-         <button onClick={()=>{
+         <button className='act' onClick={()=>{
             setisOpen(!isOpen) }}>{isOpen ?'See Less' : 'See More...'}</button>
         </div>
   )

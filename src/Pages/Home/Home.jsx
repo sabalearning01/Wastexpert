@@ -28,7 +28,9 @@ import Navbar2 from '../../Components/Navbar2/Navbar2'
 
 
 
+const handlePlay = () =>{
 
+}
 
 
  const Home = () => {
@@ -47,8 +49,11 @@ import Navbar2 from '../../Components/Navbar2/Navbar2'
           <p>The Waste to Wealth Mission brings scientific processing<br/> of waste to the forefront to build a zero landfill and <br/> zero waste nation.</p>
           <div className='btnflex'>
          <button className='pri-cta'><a href="#">Get Started</a></button>
-          <button className='sec-cta'><img  className="playic" src= {play} alt="Playicon" /><a>Press Play</a></button> 
+          <button onClick={handlePlay} className='sec-cta'><img  className="playic" src= {play} alt="Playicon" /><a>Press Play</a></button> 
          </div>
+           <video>
+            <source />
+             </video>
           </div>
 
           <div className='right-col'>
@@ -182,7 +187,7 @@ import Navbar2 from '../../Components/Navbar2/Navbar2'
      </div>
 
      <button className='see'>See More</button>
-   
+      {/* <Seemorebtn/>  */}
     </div>
 
       <Accordion/>

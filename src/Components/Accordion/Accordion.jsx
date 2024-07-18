@@ -18,14 +18,14 @@ export default function AccordionUsage() {
     <div className="tainer">
       
       <Accordion elevation={4}>
-        <AccordionSummary
+        <AccordionSummary className='summary'
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
           id="panel1-header"
         >
-          How much does it cost to be a wastexert agent?
+         <p> How much does it cost to be a wastexert agent?</p>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className='details'>
           It is initially totally free as we provide you with everything you
           need to get set up. After the first month when you must have started
           making money with us, a monthly charge of 5000 is charged for the
@@ -33,30 +33,31 @@ export default function AccordionUsage() {
         </AccordionDetails>
       </Accordion>
       <Accordion elevation={4}>
-        <AccordionSummary
+        <AccordionSummary className='summary'
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          What is the payment plan of wastexpert like?
+          <p>What is the payment plan of wastexpert like? </p>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className='details'>
           It is initially totally free as we provide you with everything you
           need to get set up. After the first month when you must have started
           making money with us, a monthly charge of 5000 is charged for the
           first year after which it becomes 2000 monthly.
+          
         </AccordionDetails>
       </Accordion>
       <Accordion defaultExpanded elevation={4}>
-        <AccordionSummary
+        <AccordionSummary className='summary'
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3-content"
           id="panel3-header"
         >
-          As a new wastexpert Agent/ collector, will i be trained on how to
-          transacts on wastexpert?
+        <p> As a new wastexpert Agent/ collector, will i be trained on how to
+          transacts on wastexpert?</p>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className='details'>
           It is initially totally free as we provide you with everything you
           need to get set up. After the first month when you must have started
           making money with us, a monthly charge of 5000 is charged for the
@@ -64,14 +65,14 @@ export default function AccordionUsage() {
         </AccordionDetails>
 
         <Accordion elevation={4}>
-          <AccordionSummary
+          <AccordionSummary className='summary'
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1-content"
             id="panel1-header"
           >
-            What is the size of space i need?
+           <p> What is the size of space i need?</p>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails className='details'>
             It is initially totally free as we provide you with everything you
             need to get set up. After the first month when you must have started
             making money with us, a monthly charge of 5000 is charged for the
@@ -80,15 +81,15 @@ export default function AccordionUsage() {
         </Accordion>
 
         <Accordion elevation={4}>
-          <AccordionSummary
+          <AccordionSummary className='summary'
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel2-content"
             id="panel2-header"
           >
-            Can anyone work as agent or collector, Also, can i operate from
-            anywhere in Nigeria?
+            <p>Can anyone work as agent or collector, Also, can i operate from
+            anywhere in Nigeria?</p>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails className='details'>
             It is initially totally free as we provide you with everything you
             need to get set up. After the first month when you must have started
             making money with us, a monthly charge of 5000 is charged for the

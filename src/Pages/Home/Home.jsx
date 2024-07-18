@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import { useRef } from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
 // import guyman from '../../Images/guyman.png'
 import play from '../../Images/play.png'
@@ -28,6 +29,9 @@ import Navbar2 from '../../Components/Navbar2/Navbar2'
 
 
 
+
+const videoRef = useRef();
+
 const handlePlay = () =>{
 
 }
@@ -51,8 +55,8 @@ const handlePlay = () =>{
          <button className='pri-cta'><a href="#">Get Started</a></button>
           <button onClick={handlePlay} className='sec-cta'><img  className="playic" src= {play} alt="Playicon" /><a>Press Play</a></button> 
          </div>
-           <video>
-            <source />
+           <video width="520" height="240" ref={videoRef}>
+            <source src = '/Videos/Waste To Wealth In Nigeria.mp4'/>
              </video>
           </div>
 

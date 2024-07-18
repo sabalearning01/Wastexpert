@@ -12,6 +12,7 @@ import bottle from '../../Images/bottle.png'
 import bin from '../../Images/bin.png'
 import AboutG from '../../Images/AboutG.png'
 import our from '../../Images/our.png'
+import Footer from '../../Components/Footer/Footer'
 
 
  const About = () => {
@@ -71,7 +72,7 @@ import our from '../../Images/our.png'
     </div>
        <h5 className='jeffery'>Jeffery Sanderson</h5>
 
-       
+       <Footer/>
           
        </div>
       
